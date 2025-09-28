@@ -35,6 +35,6 @@
   "overrides": [
     { "time": "12:30" },  // Rastgele mesaj
     { "time": "17:00" },   // Rastgele mesaj
-    { "time": "22:06", "messageId": "101" } // Kesin mesaj (Zorunlu)
+    { "time": "22:20", "messageId": "101" } // Kesin mesaj (Zorunlu)
   ]
 }
