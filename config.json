@@ -20,7 +20,7 @@
   "activityTitle": "Güncel Notlar Geçmişi",
   
   // Geçmiş listesi boşken gösterilecek mesaj
-  "emptyMessage": "Henüz mesaj yok. Yeni notların gelmesini bekleyelim...",
+  "emptyMessage": "Henüz mesaj yok. Maaalesef... Yeni notların gelmesini bekleyelim...",
   
   
   // 3. MESAJ İÇERİKLERİ (ID bazlı tekrarsızlık kontrolü)
