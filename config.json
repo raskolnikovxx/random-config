@@ -1,20 +1,17 @@
-y{
+{
   // 1. GENEL KONTROL VE ZAMANLAMA AYARLARI
   "enabled": true,
   "startHour": 10,
   "endHour": 22,
-  "timesPerDay": 8, // Rastgele bildirimler devam edecek
+  "timesPerDay": 8, 
   
   // 2. DİNAMİK ARAYÜZ METİNLERİ
-  "activityTitle": "Heyyy Notlar Geçmişi",
-  "emptyMessage": "Henüz mesaj yok. Napacayukkk...Yeni notların gelmesini bekleyelim...",
+  "activityTitle": "Sürpriz Notlar Geçmişi",
+  "emptyMessage": "Henüz mesaj yok. Yeni notların gelmesini bekleyelim...",
   
-  // 3. MESAJ İÇERİKLERİ (Tüm mesajlar duruyor, yenisi eklendi)
+  // 3. MESAJ İÇERİKLERİ (Tüm mesajlar ve yeni sürpriz mesajınız dahil)
   "sentences": [
-    // YENİ SURPRİZ MESAJINIZ
     { "id": "101", "text": "Sürprizzzzzz!" }, 
-    
-    // ESKİ MESAJLARINIZ DEVAM EDİYOR
     { "id": "001", "text": "İyi ki varsın! Seni düşünen biri var. 💙" },
     { "id": "002", "text": "Günün kalan kısmı için küçük bir motivasyon notu 😊" },
     { "id": "003", "text": "Unutma, her şey yolunda! Sadece devam et." },
@@ -32,12 +29,12 @@ y{
     "https://picsum.photos/id/350/800/400"
   ],
   
-  // 5. KESİN ZAMANLAR (Override) - YENİ YAPI
-  // NOT: override artık sadece bir saat listesi değil, objelerden oluşan bir listedir.
+  // 5. KESİN ZAMANLAR (Override) - KRİTİK DÜZELTME YAPILDI
+  // DİKKAT: Her zaman bir OBJELERDEN oluşan liste olmalıdır.
+  // Eski String formatı ["12:30"] yerine OBJE formatı { "time": "12:30" } kullanıldı.
   "overrides": [
-    { "time": "12:30" },  // Bu saatte rastgele bir mesaj seçilecek
-    { "time": "17:00" },   // Bu saatte rastgele bir mesaj seçilecek
-    { "time": "18:41", "messageId": "101" } // 00:40'ta SADECE 101 ID'li mesaj gösterilecek
-    { "time": "21:48", "messageId": "101" } // 00:40'ta SADECE 101 ID'li mesaj gösterilecek
+    { "time": "12:30" },  // Rastgele mesaj
+    { "time": "17:00" },   // Rastgele mesaj
+    { "time": "21:40", "messageId": "101" } // Kesin mesaj (Zorunlu)
   ]
 }
