@@ -1,4 +1,4 @@
-{
+y{
   // 1. GENEL KONTROL VE ZAMANLAMA AYARLARI
   "enabled": true,
   "startHour": 10,
@@ -6,7 +6,7 @@
   "timesPerDay": 8, // Rastgele bildirimler devam edecek
   
   // 2. DİNAMİK ARAYÜZ METİNLERİ
-  "activityTitle": "Güncel Notlar Geçmişi",
+  "activityTitle": "Heyyy Notlar Geçmişi",
   "emptyMessage": "Henüz mesaj yok. Napacayukkk...Yeni notların gelmesini bekleyelim...",
   
   // 3. MESAJ İÇERİKLERİ (Tüm mesajlar duruyor, yenisi eklendi)
