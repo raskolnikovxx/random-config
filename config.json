@@ -1,0 +1,55 @@
+{
+  // 1. GENEL KONTROL VE ZAMANLAMA AYARLARI
+  
+  // Uygulamanın bildirim göndermesini etkinleştirir/devre dışı bırakır. (true/false)
+  "enabled": true,
+  
+  // Bildirimlerin başlayacağı saat (24 saat formatında)
+  "startHour": 10,
+  
+  // Bildirimlerin biteceği saat (24 saat formatında)
+  "endHour": 22,
+  
+  // Başlangıç ve bitiş saatleri arasında rastgele dağıtılacak bildirim sayısı
+  "timesPerDay": 8, 
+  
+  
+  // 2. DİNAMİK ARAYÜZ METİNLERİ (MainActivity Ekranı)
+  
+  // Uygulama ekranının üst başlık metni
+  "activityTitle": "Güncel Notlar Geçmişi",
+  
+  // Geçmiş listesi boşken gösterilecek mesaj
+  "emptyMessage": "Henüz mesaj yok. Yeni notların gelmesini bekleyelim...",
+  
+  
+  // 3. MESAJ İÇERİKLERİ (ID bazlı tekrarsızlık kontrolü)
+  // ID'si bir kez gösterilen mesaj bir daha gösterilmez. Metni değiştirebilirsiniz.
+  "sentences": [
+    { "id": "001", "text": "İyi ki varsın! Seni düşünen biri var. 💙" },
+    { "id": "002", "text": "Günün kalan kısmı için küçük bir motivasyon notu 😊" },
+    { "id": "003", "text": "Unutma, her şey yolunda! Sadece devam et." },
+    { "id": "004", "text": "Şu an neye ihtiyacın var? Belki kısa bir mola?" },
+    { "id": "005", "text": "Bir sürpriz not: Gülümsemen en değerli şey!" },
+    { "id": "006", "text": "Bugün yapman gereken en önemli 3 şeyi düşün." },
+    { "id": "007", "text": "Güneşli bir gün gibi parlamaya devam et!" },
+    { "id": "008", "text": "Aklına gelen ilk güzel şeyi yap." }
+    // Daha fazla benzersiz ID ve mesaj ekleyebilirsiniz...
+  ],
+  
+  
+  // 4. GÖRSEL URL'leri (Rastgele bazen bildirimlere eklenir)
+  "images": [
+    "https://picsum.photos/id/10/800/400",
+    "https://picsum.photos/id/200/800/400",
+    "https://picsum.photos/id/350/800/400"
+  ],
+  
+  
+  // 5. KESİN ZAMANLAR (Override)
+  // Rastgele planlamayı ezer. Tam olarak bu saatlerde bildirim gönderilir.
+  "overrides": [
+    "12:30",  
+    "17:00"   
+  ]
+}
