@@ -41,5 +41,8 @@
     { "time": "08:10", "messageId": "003" } // Kesin mesaj (Zorunlu)
     { "time": "11:06", "messageId": "008" } // Kesin mesaj (Zorunlu)
     { "time": "11:10", "messageId": "007" } // Kesin mesaj (Zorunlu)
+    { "time": "11:21", "messageId": "006" } // Kesin mesaj (Zorunlu)
+    { "time": "11:26", "messageId": "008" } // Kesin mesaj (Zorunlu)
+    { "time": "11:30", "messageId": "007" } // Kesin mesaj (Zorunlu)
   ]
 }
