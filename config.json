@@ -41,12 +41,12 @@
     { "time": "17:00" },   // Rastgele mesaj
     { "time": "22:20", "messageId": "003" } // Kesin mesaj (Zorunlu)
     { "time": "08:00", "messageId": "003" } // Kesin mesaj (Zorunlu)
-    { "time": "11:00", "messageId": "101" } // Kesin mesaj (Zorunlu)
-    { "time": "08:10", "messageId": "003" } // Kesin mesaj (Zorunlu)
-    { "time": "11:06", "messageId": "008" } // Kesin mesaj (Zorunlu)
-    { "time": "13:05", "messageId": "995" } // Kesin mesaj (Zorunlu)
-    { "time": "13:09", "messageId": "996" } // Kesin mesaj (Zorunlu)
-    { "time": "13:12", "messageId": "998" } // Kesin mesaj (Zorunlu)
-    { "time": "13:20", "messageId": "999" } // Kesin mesaj (Zorunlu)
+    { "time": "11:32", "messageId": "101" } // Kesin mesaj (Zorunlu)
+    { "time": "11:35", "messageId": "003" } // Kesin mesaj (Zorunlu)
+    { "time": "11:38", "messageId": "008" } // Kesin mesaj (Zorunlu)
+    { "time": "14:35", "messageId": "995" } // Kesin mesaj (Zorunlu)
+    { "time": "14:38", "messageId": "996" } // Kesin mesaj (Zorunlu)
+    { "time": "14:32", "messageId": "998" } // Kesin mesaj (Zorunlu)
+    { "time": "14:40", "messageId": "999" } // Kesin mesaj (Zorunlu)
   ]
 }
